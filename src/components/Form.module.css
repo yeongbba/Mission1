@@ -1,0 +1,119 @@
+.container {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.form__first {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 1.5rem;
+}
+
+.box1 {
+    display: flex;
+}
+
+.slash {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.owner {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0.3rem;
+}
+
+.owner select {
+    margin-top: 0.5rem;
+}
+
+.repo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.3rem;
+}
+
+.repo input {
+    margin-top: 0.5rem;
+}
+
+.text1 {
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+}
+
+.desc {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.desc input {
+    margin-top: 0.5rem;  
+}
+
+
+.form__second {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.radio_box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.8rem;
+}
+
+.radio_box__desc {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+}
+
+.radio_box__desc span:last-child {
+    font-size: 0.8rem;
+}
+
+
+.form__third {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid lightgray;
+}
+
+.form__third__desc {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.8rem;
+}
+
+.form__third__desc span:last-child {
+    font-size: 0.8rem;
+}
+
+.checkBox {
+    display: flex;
+    margin-bottom: 0.8rem;
+}
+
+.checkBox__desc {
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+}
+
+.checkBox__desc span:last-child {
+    font-size: 0.8rem;
+}
+
+.button {
+    margin-top: 1.5rem;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 5px;
+    width: 9rem;
+    height: 1.8rem;
+    cursor: pointer;
+}
